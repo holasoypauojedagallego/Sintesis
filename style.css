@@ -18,8 +18,45 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
-        url(/images/bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    background-image: url(https://imgs.search.brave.com/7iaU3DzdXydpe9V18bBQ2t7caTVymWDlAmPd1X-zUZw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MDY4MTU0NDQ0Nzkt/YmZkYjFlOTZjNTY2/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4bGVI/QnNiM0psTFdabFpX/UjhOWHg4ZkdWdWZE/QjhmSHg4ZkE9PQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    min-width: 100%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px; 
+    font-weight: 800;
+}
+
+.menu .navbar {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    font-weight: 600;
 }
