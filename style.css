@@ -16,7 +16,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     font-size: 18px;
-    color: #fffdfc;
     font-weight: 400;    
 }
 
@@ -31,10 +30,7 @@ body {
 }
 
 .menu {
-    background-image: url(https://imgs.search.brave.com/09bLYTFvrFcQEVaYtcTMoSEPfCArAH2oZkXoP6KwYJI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTMy/Mzc4MDUxL2VzL2Zv/dG8vY2llbG8tZGUt/bm9jaGUtY29uLWVz/dHJlbGxhcy15LW51/YmVzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz00UTF1dE5w/VkR5aWZHZWNXX2lH/UXFxTnJjLVBMZ2ZE/RjU0ZGpIbV93M0lv/PQ);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky;
+    position: absolute;
     min-width: 100%;
     padding-left: 15vh;
     padding-right: 15vh;
@@ -70,6 +66,10 @@ body {
     display: block;
 }
 
+.menu .navbar ul li a:hover {
+    color: brown;
+}
+
 .menu-icono {
     width: 55px;
 }
@@ -81,4 +81,41 @@ body {
 .menu label {
     cursor: pointer;
     display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #fffdfc;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #fffdfc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ce963a;
+}
+
+.cofee {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
 }
