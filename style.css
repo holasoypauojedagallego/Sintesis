@@ -15,6 +15,9 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    font-size: 18px;
+    color: #fffdfc;
+    font-weight: 400;    
 }
 
 .header {
@@ -28,13 +31,13 @@ body {
 }
 
 .menu {
-    background-image: url(https://imgs.search.brave.com/7iaU3DzdXydpe9V18bBQ2t7caTVymWDlAmPd1X-zUZw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MDY4MTU0NDQ0Nzkt/YmZkYjFlOTZjNTY2/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4bGVI/QnNiM0psTFdabFpX/UjhOWHg4ZkdWdWZE/QjhmSHg4ZkE9PQ);
+    background-image: url(https://imgs.search.brave.com/09bLYTFvrFcQEVaYtcTMoSEPfCArAH2oZkXoP6KwYJI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTMy/Mzc4MDUxL2VzL2Zv/dG8vY2llbG8tZGUt/bm9jaGUtY29uLWVz/dHJlbGxhcy15LW51/YmVzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz00UTF1dE5w/VkR5aWZHZWNXX2lH/UXFxTnJjLVBMZ2ZE/RjU0ZGpIbV93M0lv/PQ);
     background-repeat: no-repeat;
     background-size: cover;
     position: sticky;
     min-width: 100%;
-    padding-left: 5vh;
-    padding-right: 5vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
     top: 0;
     left: 0;
     right: 0;
@@ -50,6 +53,11 @@ body {
 }
 
 .menu .navbar {
+    float: left;
+    align-items: center;
+}
+
+.menu .navbar ul li {
     position: relative;
     float: left;
 }
@@ -59,4 +67,18 @@ body {
     padding: 20px;
     color: #fffdfc;
     font-weight: 600;
+    display: block;
+}
+
+.menu-icono {
+    width: 55px;
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
 }
