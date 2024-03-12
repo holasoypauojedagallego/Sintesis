@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/imagenes/Captura\ de\ pantalla\ de\ 2024-03-11\ 13-30-40.png7+);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,6 +148,10 @@ body {
     margin-bottom: 50px;
 }
 
+.cofee-1 {
+    padding: 0 3ch;
+}
+
 .cofee-1 img {
     width: 200px;
 }
@@ -156,4 +160,17 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.cofee-1 h3 {
+    color: #238aff;
+    font-size: 21px;
+    margin-bottom: 8px; 
+}
+
+.services {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/blog3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
