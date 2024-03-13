@@ -20,10 +20,11 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/imagenes/Captura\ de\ pantalla\ de\ 2024-03-11\ 13-30-40.png7+);
-    background-position: center bottom;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(/imagenes/Captura\ de\ pantalla\ de\ 2024-03-13\ 12-31-53.png);
+    background-position: center 30%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 70vh;
     display: flex;
     align-items: center;
@@ -169,8 +170,49 @@ body {
 }
 
 .services {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/blog3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/imagenes/Captura\ de\ pantalla\ de\ 2024-03-13\ 12-31-53.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+
+.services-content {
+    text-align: center;
+}
+
+.services-content h2 {
+    color: #238aff;
+    font-size: 46px;
+    line-height: 92px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.services-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 0 100px;
+}
+
+.services-1 img {
+    width: 33px;
+    margin-bottom: 8px;
+}
+
+.services-1 h3 {
+    color: #eaccb3;
+    font-size: 20px;
 }
