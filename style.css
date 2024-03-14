@@ -47,6 +47,12 @@ body {
     color: #fffdfc;
     font-size: 25px; 
     font-weight: 800;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .menu .navbar {
@@ -65,10 +71,15 @@ body {
     color: #fffdfc;
     font-weight: 600;
     display: block;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 .menu .navbar ul li a:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
     color: rgb(46, 196, 255);
+    text-shadow: 2px 2px 3px rgba(247, 245, 122, 0.842);
 }
 
 .menu-icono {
@@ -109,12 +120,15 @@ body {
     background-color: #238aff;
     color: #ffffff;
     text-transform: uppercase;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .btn-1:hover {
-    transition: 0.6s;
+    transition: 0.5s;
+    transform: scale(1.08);
     background-color: rgb(0, 210, 238);
+    box-shadow: 4px 4px 12px rgba(243, 220, 16, 0.801);
+    box-sizing: border-box;
 }
 
 .cofee {
