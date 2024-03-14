@@ -306,11 +306,48 @@ p {
     padding: 15px 55px;
 }
 
-.blog-1 img {
+.image1-blog-1{
+    background-image: url(https://www.colegiojurista.com/blog/wp-content/uploads/2022/07/hackers-300x300.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 250px;
     height: 195px;
     border-radius: 23px;
     margin-bottom: 15px;
+    transition: 0.03s;
+}
+
+.image2-blog-1{
+    background-image: url(https://imgs.search.brave.com/TVsmqJorCbyppMWG5eZGLvKVHAoIbcYeaVK8AwtXsUo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9jcmltZW4tZGln/aXRhbC1oYWNrZXIt/YW5vbmltb181Mzg3/Ni00MTU5NC5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 195px;
+    border-radius: 23px;
+    margin-bottom: 15px;
+    transition: 0.03s;
+}
+
+.image3-blog-1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-PkNMDNC5UimYA9Kiy2VxPRsmRasn3s6Dzo_p3-0-VWLCRqh9GOkeMArnH7whou-2blg&usqp=CAU);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 195px;
+    border-radius: 23px;
+    margin-bottom: 15px;
+    transition: 0.03s;
+}
+
+.blog-1 img:hover {
+    background-image: url(https://ih1.redbubble.net/image.4538678839.3928/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.03s;
 }
 
 .blog-1 h3 {
