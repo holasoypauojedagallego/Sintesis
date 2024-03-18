@@ -31,9 +31,8 @@ body {
 }
 
 .menu {
-    overflow: auto;
     position: sticky;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-color: rgba(0,0,0,0.7);
     min-width: 100%;
     padding-left: 15vh;
     padding-right: 15vh;
@@ -96,19 +95,6 @@ body {
     color: rgb(46, 196, 255);
     text-shadow: 1px 1px 2px rosybrown;
     transition-delay: 0ms;
-}
-
-.menu-icono {
-    width: 55px;
-}
-
-#menu {
-    display: none;
-}
-
-.menu label {
-    cursor: pointer;
-    display: none;
 }
 
 .header-content {
