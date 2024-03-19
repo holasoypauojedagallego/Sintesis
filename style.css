@@ -371,6 +371,12 @@ p {
     margin-bottom: 15px;
 }
 
+.link h3 a {
+    font-size: 18px;
+    color: #e8eaf0;
+    margin-bottom: 15px;
+}
+
 .link a {
     font-size: 16px;
     color: #C5C5C5;
