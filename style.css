@@ -110,7 +110,7 @@ body {
 }
 
 .header-content p {
-    font-size: 16px;
+    font-size: 18px;
     color: #fffdfc;
     padding: 0 250px;
     margin-bottom: 25px;
@@ -163,7 +163,7 @@ body {
 }
 
 .txt-p {
-    font-size: 16px;
+    font-size: 18px;
     color: #414247;
     padding: 0 250px;
     margin-bottom: 35px;
@@ -185,7 +185,7 @@ body {
 
 .cofee-1 h3 {
     color: #238aff;
-    font-size: 21px;
+    font-size: 22px;
     margin-bottom: 8px; 
 }
 
@@ -212,7 +212,7 @@ body {
 }
 
 .services-content p {
-    font-size: 16px;
+    font-size: 18px;
     color: #C5C5C5;
     margin-bottom: 50px;
     padding: 0 100px;
@@ -236,7 +236,7 @@ body {
 
 .services-1 h3 {
     color: #eaccb3;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .general {
@@ -366,19 +366,19 @@ p {
 }
 
 .link h3 {
-    font-size: 18px;
+    font-size: 20px;
     color: #e8eaf0;
     margin-bottom: 15px;
 }
 
 .link h3 a {
-    font-size: 18px;
+    font-size: 20px;
     color: #e8eaf0;
     margin-bottom: 15px;
 }
 
 .link a {
-    font-size: 16px;
+    font-size: 18px;
     color: #C5C5C5;
     display: block;
     margin-bottom: 15px;
