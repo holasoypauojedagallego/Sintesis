@@ -141,18 +141,18 @@ body {
     box-sizing: border-box;
 }
 
-.cofee {
+.pentesting {
     overflow: hidden;;
     padding: 100px 0;
     background-color: #e1e2e6;
     
 }
 
-.cofee-content {
+.pentesting-content {
     text-align: center;
 }
 
-.cofee-content h2 {
+.pentesting-content h2 {
     font-size: 55px;
     line-height: 70px;
     color: #323337;
@@ -169,21 +169,21 @@ body {
     margin-bottom: 35px;
 }
 
-.cofee-group {
+.pentesting-group {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.cofee-1 {
+.pentesting-1 {
     padding: 0 3ch;
 }
 
-.cofee-1 img {
+.pentesting-1 img {
     width: 200px;
 }
 
-.cofee-1 h3 {
+.pentesting-1 h3 {
     color: #238aff;
     font-size: 22px;
     margin-bottom: 8px; 
@@ -284,6 +284,7 @@ p {
 .blog {
     padding: 100px 0px;
     text-align: center;
+    
 }
 
 .blog-content {
@@ -356,7 +357,7 @@ p {
 }
 
 .footer {
-    padding: 100px 0;
+    padding: 70px 0;
     background-color: #323337;
 }
 
@@ -384,3 +385,98 @@ p {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
+
+
+
+.prueba {
+    margin-top: 333px;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    margin: 100px 0px;
+    background: #238aff;
+    position: relative;
+    animation: hola 5s ease-in-out infinite;
+}
+
+@keyframes hola {
+
+    0% {
+        left: 0%;
+        background: #238aff;
+    }
+
+    50% {
+        left: 94.69%;
+        background: yellow;
+    }
+
+    100% {
+        left: 0%;
+        background: greenyellow;
+    }
+}
+
+
+
+.recarga {
+    display: flex;
+    justify-content: center;
+    margin: 220px;
+}
+
+.recarga1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 100px;
+    background-color: #414247;
+    position: relative;
+    animation: recarga 2.5s ease-in-out infinite;
+
+}
+
+.recarga2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 100px;
+    background-color: #414247;
+    position: relative;
+    animation: recarga 2.5s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+.recarga3 {
+    width: 50px;
+    height: 50x;
+    border-radius: 50%;
+    margin-right: 100px;
+    background-color: #414247;
+    position: relative;
+    animation: recarga 2.5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+@keyframes recarga {
+
+    0%, 100% {
+        transform: scale(0.5);
+        background: #414247;
+    }
+
+    50% {
+        transform: scale(1);
+        background: #414247;
+    }
+
+}
