@@ -141,21 +141,21 @@ body {
     box-sizing: border-box;
 }
 
-.pentesting {
+.quiensomos {
     overflow: hidden;;
     padding: 100px 0;
-    background-color: #e1e2e6;
+    background-color: black;
     
 }
 
-.pentesting-content {
+.quiensomos-content {
     text-align: center;
 }
 
-.pentesting-content h2 {
+.quiensomos-content h2 {
     font-size: 55px;
     line-height: 70px;
-    color: #323337;
+    color: whitesmoke;
     text-shadow: none;
     text-transform: uppercase;
     padding: 0 250px;
@@ -164,33 +164,29 @@ body {
 
 .txt-p {
     font-size: 18px;
-    color: #414247;
+    color: white;
     padding: 0 250px;
     margin-bottom: 35px;
 }
 
-.pentesting-group {
+.quiensomos-group {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.pentesting-1 {
+.quiensomos-1 {
     padding: 0 3ch;
 }
 
-.pentesting-1 img {
+.quiensomos-1 img {
     width: 200px;
 }
 
-.pentesting-1 h3 {
-    color: #238aff;
-    font-size: 22px;
-    margin-bottom: 8px; 
-}
+
 
 .services {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_1280.png);
+    background-color: gray;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,7 +199,7 @@ body {
 }
 
 .services-content h2 {
-    color: #238aff;
+    color: black;
     font-size: 46px;
     text-shadow: none;
     line-height: 92px;
@@ -213,7 +209,7 @@ body {
 
 .services-content p {
     font-size: 18px;
-    color: #C5C5C5;
+    color: black;
     margin-bottom: 50px;
     padding: 0 100px;
 }
@@ -241,7 +237,7 @@ body {
 }
 
 .services-1 h3 {
-    color: #eaccb3;
+    color: white;
     font-size: 21px;
 }
 
@@ -249,27 +245,7 @@ body {
     display: flex;
 }
 
-.general-1 {
-    width: 50%;
-    padding: 100px 250px 100px 100px;
-    background-color: #e1e2e6;
-}
 
-.general-2 {
-    background-image: url(https://www.adslzone.net/app/uploads-adslzone.net/2021/05/hacker-tipos.jpg?x=480&y=375&quality=40);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-
-.general-3 {
-    background-image: url(https://t1.uc.ltmcdn.com/es/posts/6/9/3/tipos_de_hackers_segun_su_conducta_49396_orig.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
 
 h2 {
     font-size: 55px;
@@ -285,80 +261,6 @@ p {
     color: #414247;
     line-height: 29px;
     margin: 25px 0 45px 0;
-}
-
-.blog {
-    padding: 100px 0px;
-    text-align: center;
-}
-
-.blog-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.blog-1 {
-    padding: 15px 55px;
-}
-
-.image1-blog-1{
-    background-image: url(https://www.colegiojurista.com/blog/wp-content/uploads/2022/07/hackers-300x300.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 195px;
-    border-radius: 23px;
-    margin-bottom: 15px;
-    transition: 0.03s;
-}
-
-.image2-blog-1{
-    background-image: url(https://imgs.search.brave.com/TVsmqJorCbyppMWG5eZGLvKVHAoIbcYeaVK8AwtXsUo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9jcmltZW4tZGln/aXRhbC1oYWNrZXIt/YW5vbmltb181Mzg3/Ni00MTU5NC5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 195px;
-    border-radius: 23px;
-    margin-bottom: 15px;
-    transition: 0.03s;
-}
-
-.image3-blog-1{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-PkNMDNC5UimYA9Kiy2VxPRsmRasn3s6Dzo_p3-0-VWLCRqh9GOkeMArnH7whou-2blg&usqp=CAU);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 195px;
-    border-radius: 23px;
-    margin-bottom: 15px;
-    transition: 0.03s;
-}
-
-.blog-1 img:hover {
-    background-image: url(https://ih1.redbubble.net/image.4538678839.3928/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 0.03s;
-}
-
-.blog-1 h3 {
-    font-size: 23px;
-    color: #238aff;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(228, 207, 25);
-    transition: 0.3s;
-}
-
-.blog-1 h3:hover {
-    transition: 0.3s;
-    font-size: 23px;
-    color: #238aff;
-    text-decoration-line: underline;
-    text-decoration-color: rgba(223, 46, 46, 0.938);
 }
 
 .footer {
