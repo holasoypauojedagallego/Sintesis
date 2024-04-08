@@ -379,7 +379,7 @@ p {
 }
 
 .footer {
-    padding: 70px 0;
+    padding: 65px 0;
     background-color: #323337;
 }
 
@@ -405,100 +405,4 @@ p {
     color: #C5C5C5;
     display: block;
     margin-bottom: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.prueba {
-    margin-top: 333px;
-}
-
-.cuadrado {
-    width: 100px;
-    height: 100px;
-    margin: 100px 0px;
-    background: #238aff;
-    position: relative;
-    animation: hola 5s ease-in-out infinite;
-}
-
-@keyframes hola {
-
-    0% {
-        left: 0%;
-        background: #238aff;
-    }
-
-    50% {
-        left: 94.69%;
-        background: yellow;
-    }
-
-    100% {
-        left: 0%;
-        background: greenyellow;
-    }
-}
-
-
-
-.recarga {
-    display: flex;
-    justify-content: center;
-    margin: 220px;
-}
-
-.recarga1 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 100px;
-    background-color: #414247;
-    position: relative;
-    animation: recarga 2.5s ease-in-out infinite;
-
-}
-
-.recarga2 {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 100px;
-    background-color: #414247;
-    position: relative;
-    animation: recarga 2.5s ease-in-out infinite;
-    animation-delay: 0.5s;
-}
-
-.recarga3 {
-    width: 50px;
-    height: 50x;
-    border-radius: 50%;
-    margin-right: 100px;
-    background-color: #414247;
-    position: relative;
-    animation: recarga 2.5s ease-in-out infinite;
-    animation-delay: 1s;
-}
-
-@keyframes recarga {
-
-    0%, 100% {
-        transform: scale(0.5);
-        background: #414247;
-    }
-
-    50% {
-        transform: scale(1);
-        background: #414247;
-    }
-
 }
