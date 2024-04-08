@@ -35,7 +35,7 @@ body {
     background-color: rgba(0,0,0,0.7);
     min-width: 100%;
     padding-left: 15vh;
-    padding-right: 15vh;
+    padding-right: 12vh;
     top: 0;
     left: 0;
     right: 0;
@@ -59,6 +59,16 @@ body {
 .logo:active {
     transition: 0.5s;
     transform: scale(1.1);
+}
+
+.menu-titulo {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 21px;
+    color: #fffdfc;
+    position: relative;
+    display: flex;
+    margin-right: 18%;
 }
 
 .menu .navbar {
@@ -144,8 +154,11 @@ body {
 .quiensomos {
     overflow: hidden;;
     padding: 100px 0;
-    background-color: black;
-    
+    background-color: #e1e2e6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .quiensomos-content {
@@ -155,7 +168,7 @@ body {
 .quiensomos-content h2 {
     font-size: 55px;
     line-height: 70px;
-    color: whitesmoke;
+    color: #323337;
     text-shadow: none;
     text-transform: uppercase;
     padding: 0 250px;
@@ -164,7 +177,7 @@ body {
 
 .txt-p {
     font-size: 18px;
-    color: white;
+    color: #414247;
     padding: 0 250px;
     margin-bottom: 35px;
 }
@@ -185,21 +198,20 @@ body {
 
 
 
-.services {
-    background-color: gray;
-    background-position: center center;
+.contactos {
+    background-image: url(https://imgs.search.brave.com/Iow9o5l818Lp1lxNTLqx5x0eR1upjgmlxFzjfTiCZJw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA1/NTA5NzUyOC9lcy9m/b3RvLzRrLWF6dWwt/aGllbG8ud2VicD9i/PTEmcz0xNzA2Njdh/Jnc9MCZrPTIwJmM9/ZHdaM29ndHNFRFVn/ajR3cV81SnhVN2Yx/YTBmbTlIdzMyOVpn/YTRWLUg5cz0);    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 80px 0;
 }
 
-.services-content {
+.contactos-content {
     text-align: center;
 }
 
-.services-content h2 {
-    color: black;
+.contactos-content h2 {
+    color: white;
     font-size: 46px;
     text-shadow: none;
     line-height: 92px;
@@ -207,16 +219,16 @@ body {
     margin-bottom: 50px;
 }
 
-.services-content p {
+.contactos-content p {
     font-size: 18px;
-    color: black;
+    color: white;
     margin-bottom: 50px;
     padding: 0 100px;
 }
 
-.services-group {
+.contactos-group {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
@@ -224,19 +236,19 @@ body {
     padding: 0 100px;
 }
 
-.services-1 img {
+.contactos-1 img {
     width: 120px;
     height: 90px;
     margin-bottom: 8px;
 }
 
-.services-1 img.foto-mastodon {
+.contactos-1 img.foto-mastodon {
     width: 160px;
     height: 90px;
     margin-bottom: 8px;
 }
 
-.services-1 h3 {
+.contactos-1 h3 {
     color: white;
     font-size: 21px;
 }
@@ -244,8 +256,6 @@ body {
 .general {
     display: flex;
 }
-
-
 
 h2 {
     font-size: 55px;
