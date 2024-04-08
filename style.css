@@ -29,27 +29,7 @@ body {
     min-height: 70vh;
     display: flex;
     align-items: center;
-    animation: rico 1.5s  normal;
 }
-
-@keyframes rico {
-
-    0% {
-        transform: scale(0);
-        background-color: #414247;
-    }
-
-    50% {
-        transform: scale(0);
-        background-color: #414247;
-    }
-
-    100% {
-        transform: scale(1);
-    }
-
-}
-
 
 .menu {
     position: sticky;
@@ -141,10 +121,21 @@ body {
 }
 
 .header-content p {
-    font-size: 18px;
+    font-size: 20px;
+    text-transform: capitalize;
     color: #fffdfc;
-    padding: 0 250px;
+    padding: 10px 12px;
     margin-bottom: 25px;
+}
+
+.eslogan {
+    border: 3px inset white;
+    border-radius: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_1280.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .btn-1 {
