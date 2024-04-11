@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
     font-size: 18px;
     font-weight: 400;    
@@ -120,10 +120,11 @@ body {
 }
 
 .header-content p {
-    font-size: 18px;
+    font-size: 22px;
+    text-transform: capitalize;
     color: #fffdfc;
-    padding: 0 250px;
-    margin-bottom: 25px;
+    padding: 10px 12px;
+    margin-bottom: 33px;
 }
 
 .btn-1 {
