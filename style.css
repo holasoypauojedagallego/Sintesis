@@ -14,21 +14,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     font-size: 18px;
     font-weight: 400;    
-}
-
-.header {
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(https://imgs.search.brave.com/oZ-JQHuMs12nR9WZkK3bbDQ43XB-L2E5WQXsFRtjsYU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNi8x/MS8xOS8yMi81Mi9j/b2RpbmctMTg0MTU1/MF9fMzQwLmpwZw);
-    background-position: center 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
 }
 
 .menu {
@@ -108,6 +97,17 @@ body {
     transition-delay: 0ms;
 }
 
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(https://imgs.search.brave.com/oZ-JQHuMs12nR9WZkK3bbDQ43XB-L2E5WQXsFRtjsYU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNi8x/MS8xOS8yMi81Mi9j/b2RpbmctMTg0MTU1/MF9fMzQwLmpwZw);
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
 .header-content {
     text-align: center;
 }
@@ -121,21 +121,11 @@ body {
 }
 
 .header-content p {
-    font-size: 20px;
+    font-size: 22px;
     text-transform: capitalize;
     color: #fffdfc;
     padding: 10px 12px;
-    margin-bottom: 25px;
-}
-
-.eslogan {
-    border: 3px inset white;
-    border-radius: 100px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_1280.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 320px;
-    margin: 0 auto;
+    margin-bottom: 33px;
 }
 
 .btn-1 {
@@ -194,11 +184,12 @@ body {
 .servicios-group {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 33px;
 }
 
 .servicios-1 {
-    padding: 0 3ch;
+    padding: 0vh 3ch;
+    padding-top: 33px;
 }
 
 .servicios-1 img {
@@ -207,8 +198,12 @@ body {
 
 .servicios-1 h3 {
     color: #238aff;
-    font-size: 22px;
+    font-size: 21px;
     margin-bottom: 8px; 
+}
+
+.servicios-1 p {
+    text-align: center;
 }
 
 .productos {
@@ -297,7 +292,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 17px;
     color: #414247;
     line-height: 29px;
     margin: 25px 0 45px 0;
