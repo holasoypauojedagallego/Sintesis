@@ -191,8 +191,9 @@ body {
     padding-top: 33px;
 }
 
-.servicios-1 img {
+.servicios-img img {
     width: 200px;
+    border-radius: 42px;
 }
 
 .servicios-1 h3 {
@@ -253,6 +254,7 @@ body {
     width: 120px;
     height: 100px;
     margin-bottom: 8px;
+    border-radius: 30px;
 }
 
 .productos-1 h3 {

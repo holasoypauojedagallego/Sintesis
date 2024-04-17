@@ -133,7 +133,7 @@ body {
     background-size: cover;
     padding: 100px 0px;
     display: block;
-    min-height: 80vh;
+    min-height: 0vh;
 }
 
 .preguntas {
@@ -148,6 +148,11 @@ body {
     margin-bottom: 28px;
 }
 
+details{
+    margin-left: 133px;
+    margin-right: 133px;
+}
+
 summary {
     display: block;
     text-align: left;
@@ -155,11 +160,7 @@ summary {
     font-size: 21px;
     transition: 0.4s;
     margin-bottom: 14px;
-}
-
-details{
-    margin-left: 133px;
-    margin-right: 133px;
+    transform-origin: left;
 }
 
 summary:hover {
@@ -169,7 +170,8 @@ summary:hover {
 
 summary:active {
     transition: 0.4s;
-    transform: scale(0.989);
+    transform: scale(0.95);
+    transform-origin: left;
 }
 
 .sumario-preguntas p {

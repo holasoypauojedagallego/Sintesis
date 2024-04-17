@@ -191,12 +191,6 @@ body {
     padding: 0 3ch;
 }
 
-.quiensomos-1 img {
-    width: 200px;
-}
-
-
-
 .contactos {
     background-image: url(https://imgs.search.brave.com/Iow9o5l818Lp1lxNTLqx5x0eR1upjgmlxFzjfTiCZJw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA1/NTA5NzUyOC9lcy9m/b3RvLzRrLWF6dWwt/aGllbG8ud2VicD9i/PTEmcz0xNzA2Njdh/Jnc9MCZrPTIwJmM9/ZHdaM29ndHNFRFVn/ajR3cV81SnhVN2Yx/YTBmbTlIdzMyOVpn/YTRWLUg5cz0);    background-position: center center;
     background-repeat: no-repeat;
@@ -236,13 +230,14 @@ body {
 }
 
 .contactos-1 img {
-    width: 120px;
+    width: 125px;
     height: 90px;
     margin-bottom: 8px;
+    border-radius: 20px;
 }
 
 .contactos-1 img.foto-mastodon {
-    width: 160px;
+    width: 150px;
     height: 90px;
     margin-bottom: 8px;
 }
