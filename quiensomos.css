@@ -175,6 +175,7 @@ body {
 }
 
 .txt-p {
+    text-align: justify;
     font-size: 18px;
     color: #414247;
     padding: 0 250px;
@@ -232,6 +233,7 @@ body {
 .contactos-1 img {
     width: 125px;
     height: 90px;
+    margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 20px;
 }
@@ -267,11 +269,13 @@ p {
 }
 
 .footer {
-    padding: 65px 0;
+    padding: 60px 0px 10px 0px;
     background-color: #323337;
 }
 
 .footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
@@ -297,13 +301,11 @@ p {
     transition: 0.3s;
 }
 
-
 .link h3 a {
     font-size: 20px;
     color: #e8eaf0;
     margin-bottom: 15px;
 }
-
 
 .link a {
     font-size: 18px;
@@ -318,3 +320,12 @@ p {
     margin-bottom: 15px;
 }
 
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    color: #e1e2e6ad;
+    font-size: 17px;
+}
