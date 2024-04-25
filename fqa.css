@@ -159,7 +159,7 @@ summary {
     cursor: pointer;
     font-size: 21px;
     transition: 0.4s;
-    margin-bottom: 14px;
+    margin-bottom: 21px;
     transform-origin: left;
 }
 
@@ -180,7 +180,7 @@ summary:active {
     border: 1px outset grey;
     border-radius: 33px;
     text-align: left;
-    margin-bottom: 14px;
+    margin-bottom: 33px;
     text-align: justify;
 }
 
