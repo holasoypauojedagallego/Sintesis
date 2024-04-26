@@ -145,7 +145,7 @@ body {
     line-height: 70px;
     color: #323337;
     text-transform: uppercase;
-    margin-bottom: 28px;
+    margin-bottom: 33px;
 }
 
 details{
@@ -161,6 +161,9 @@ summary {
     transition: 0.4s;
     margin-bottom: 21px;
     transform-origin: left;
+    background-color: rgb(206, 206, 206);
+    border-radius: 25px;
+    padding: 20px;
 }
 
 summary:hover {
